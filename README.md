@@ -10,7 +10,7 @@ Einführung in / Zusammenfassung des Projektes.
 WebGL Referenzauflösung (960x600) 
 
 ### Visuelle Einblicke in das Projekt: 
-Screenshots (Konzept, Spielabschnitte), Video (< 100MB, < 3 min)
+![Skizze_02UE-ShootingIsland_HuWoj](https://user-images.githubusercontent.com/90834280/136345648-8c7d025e-2058-476b-91ad-c8d290c5d685.jpg)
 
 ### Notwendiges für die Ausführung: 
 z.B.: Installationsprozess, Schritt für Schritt Anweisung, spezielles Packages welches geladen werden muss, etc.  
