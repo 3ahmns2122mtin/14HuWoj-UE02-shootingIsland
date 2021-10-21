@@ -11,6 +11,7 @@ WebGL Referenzauflösung (960x600)
 
 ### Visuelle Einblicke in das Projekt: 
 ![Skizze_02UE-ShootingIsland_HuWoj](https://user-images.githubusercontent.com/90834280/136345648-8c7d025e-2058-476b-91ad-c8d290c5d685.jpg)
+![image](https://user-images.githubusercontent.com/90834280/138226193-16156059-f7ca-431e-997b-5bbd25aac7cf.png)
 
 ### Notwendiges für die Ausführung: 
 z.B.: Installationsprozess, Schritt für Schritt Anweisung, spezielles Packages welches geladen werden muss, etc.  
