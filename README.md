@@ -55,7 +55,7 @@ Falls verwendet Fonts, Sounds, Music, Graphics, Materials, Code etc. welches nic
 Bitte hier nicht, ich kann nicht programmieren, sondern was wurde im Projekt von den Anforderungen nicht umgesetz. Wo waren die Probleme. 
 
 ### Lessons Learned:
-- [] Saturn
+- [ ] Saturn
 - [ ] Uranus
 - [ ] Neptune
 - [ ] Comet Haley
