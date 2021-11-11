@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-     [SerializeField] private int secondsToDestroy = 1;
+    private float secondsToDestroy = 3f;
 
     public GameManager gameManager;
 

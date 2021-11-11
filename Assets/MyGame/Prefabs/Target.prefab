@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a09f487bedb5b49a14ea21dfdc5180, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsToDestroy: 1
+  secondsToDestroy: 0.5
   gameManager: {fileID: 7010358607264331943, guid: 377aeb0de1840754696a6cfda3a9d509, type: 3}
 --- !u!61 &6039451946994886063
 BoxCollider2D:
