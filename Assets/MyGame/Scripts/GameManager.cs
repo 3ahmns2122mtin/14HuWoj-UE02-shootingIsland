@@ -22,11 +22,31 @@ public class GameManager : MonoBehaviour
     private Text textCounter;
     public GameObject targetCounter;
 
+    public GameObject wonObject;
+    public GameObject backgroundObject;
+
+    public GameObject hitSound;
+    //public GameObject wonSound;
+    private const int maxHit = 10;
+
     void Start()
     {
+        Debug.Log("Game Manager alive");
         won = false;
         textCounter = targetCounter.GetComponent<Text>();
+        if (textCounter == null)
+        {
+            Debug.Log("TextCounterIsNull");
+        }
+
+        else
+        {
+            Debug.Log("TextCounterIsNotNull" + textCounter.name);
+        }
+
         InvokeRepeating("Spawn", InvokeTime, InvokeRepeatRate);
+        wonObject.SetActive(false);
+        backgroundObject.SetActive(false);
     }
 
     // Spawn a target at a random position
@@ -46,27 +66,35 @@ public class GameManager : MonoBehaviour
         if (won == true)
         {
             CancelInvoke("Spawn");
-        }
-
-        else
-        {
-            Debug.Log(won);
+            wonObject.SetActive(true);
+            backgroundObject.SetActive(true);
         }
 
         if (Input.GetMouseButtonDown(0))
         {
-
+            hitSound.GetComponent<AudioSource>().Play();
         }
     }
 
     public void IncrementScore()
     {
         score++;
-        textCounter.text = score.ToString();
+        if (textCounter != null)
+        {
+            Debug.Log("Score" + score);
+            textCounter.text = score.ToString();
+            Debug.Log("textCouter" + textCounter);
+        }
 
-        if (score >= 10)
+        else
+        {
+            Debug.Log("TextCounterIsNull");
+        }
+
+        if (score >= maxHit)
         {
             won = true;
+            //wonSound.GetComponent<AudioSource>().Play();
         }
     }
 }
