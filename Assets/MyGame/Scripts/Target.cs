@@ -10,6 +10,7 @@ public class Target : MonoBehaviour
 
     void Start()
     {
+        gameManager = GameObject.FindObjectOfType<GameManager>();
         Destroy(gameObject, secondsToDestroy);
     }
 
