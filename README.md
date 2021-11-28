@@ -13,11 +13,11 @@ WebGL Referenzauflösung (960x600)
 ![Skizze_02UE-ShootingIsland_HuWoj](https://user-images.githubusercontent.com/90834280/136345648-8c7d025e-2058-476b-91ad-c8d290c5d685.jpg)
 ![image](https://user-images.githubusercontent.com/90834280/138226193-16156059-f7ca-431e-997b-5bbd25aac7cf.png)
 
-### Notwendiges für die Ausführung: 
-z.B.: Installationsprozess, Schritt für Schritt Anweisung, spezielles Packages welches geladen werden muss, etc.  
-
 ### Drittmaterial: 
-Falls verwendet Fonts, Sounds, Music, Graphics, Materials, Code etc. welches nicht von mir stammt muss hier referenziert werden. 
+Background: https://www.wikiwand.com/de/Bundeskanzleramt_(%C3%96sterreich) (Titelbild)
+Target:https://www.celebrity-cutouts.de/shop/celebrity-big-head-sebastian-kurz/
+hitSound: https://www.youtube.com/watch?v=Jr9s2Eut5ZE
+wonSound: https://www.youtube.com/watch?v=-VbPFSiBvQM
 
 ### Anforderungsliste:  
  - [x] WebGL export/upload lauffähig/spielbar
@@ -44,21 +44,22 @@ Falls verwendet Fonts, Sounds, Music, Graphics, Materials, Code etc. welches nic
  - [x] In Scripts ein neues C# Script anlegen: Rechtsklick > Create > C# Script. Script gleich umbenennen in Target. Mit Doppelklick öffnen in Visual Studio (https://github.com/HTL-SBG/FAQIssuesUnityVSGitGitHub/issues/2).
  - [x] Anhängen des Scripts Target als Komponente an das GameObject Target (per Drag and Drop).
  - [x] Einen 2D Collider als Komponente dem Target hinzufügen.
- - [ ] Dem Script Target eine Methode OnMouseDown() hinzufügen.
- - [ ] In der OnMouseDown() Methodendeklaration, die Methodenaufruf Destroy(gameObject); hinzufügen
- - [ ] Das GO Target in der Hierarchy auswählen und mit Apply All die Änderungen bestätigen.
- - [ ] In der Szene ein empty GameObject anlegen, umbenennen in GameManager und Reset ausführen.
- - [ ] Im Scripts Ordner ein neues C# Script erstellen mit dem Namen GameManager.
- - [ ] Das GameManager Script per Drag and Drop dem GameObject GameManager hinzufügen.
- - [ ] ... (noch unvollständig)
+ - [x] Dem Script Target eine Methode OnMouseDown() hinzufügen.
+ - [x] In der OnMouseDown() Methodendeklaration, die Methodenaufruf Destroy(gameObject); hinzufügen
+ - [x] Das GO Target in der Hierarchy auswählen und mit Apply All die Änderungen bestätigen.
+ - [x] In der Szene ein empty GameObject anlegen, umbenennen in GameManager und Reset ausführen.
+ - [x] Im Scripts Ordner ein neues C# Script erstellen mit dem Namen GameManager.
+ - [x] Das GameManager Script per Drag and Drop dem GameObject GameManager hinzufügen.
 
 ### Limitationen:
-Bitte hier nicht, ich kann nicht programmieren, sondern was wurde im Projekt von den Anforderungen nicht umgesetz. Wo waren die Probleme. 
+Am Ende des Projekt tauchten Probleme bei meinem Target auf, da diese nicht die nötigen Informationen an den Counter übergeben haben. Sonst gab es keine großen Probleme.
 
 ### Lessons Learned:
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [x] Anlegen und verwenden von Collidern
+- [x] Beheben von Problemen mithilfe von Debug.Log-Messages
+- [x] Anlegen von Prefabs
+- [x] Wechseln des Cursors
+- [x] An- und Ausschalten von Objekten
+- [x] Benutzen und Einbetten von Sounds
 
 Copyright by HuWoj
