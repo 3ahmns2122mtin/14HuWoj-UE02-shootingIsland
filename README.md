@@ -7,7 +7,8 @@ Einführung in / Zusammenfassung des Projektes.
 Windows 10, Unity 2020.3.18f1, Visual Studio 2019
 
 ### Zielplattform: 
-WebGL Referenzauflösung (960x600) 
+WebGL Referenzauflösung (960x600)
+https://3ahmns2122mtin.github.io/14HuWoj-UE02-shootingIsland/
 
 ### Visuelle Einblicke in das Projekt: 
 ![Skizze_02UE-ShootingIsland_HuWoj](https://user-images.githubusercontent.com/90834280/136345648-8c7d025e-2058-476b-91ad-c8d290c5d685.jpg)
